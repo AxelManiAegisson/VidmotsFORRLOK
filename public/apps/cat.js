@@ -3,13 +3,14 @@ let index = 0;
 let pic;
 let prevX, prevY;
 
-
+//geri canvas og sæki myndina
 function setup() {
 	createCanvas(255, 255);
 	background(200);
 	loadJSON('/cat', gotDrawing);
 }
 
+//teiknar myndina eins og hún var teiknuð frá byrjun
 function draw(){
 	if (pic){
 		let x = pic[strokeIndex][0][index];
