@@ -39,8 +39,8 @@ fs.createReadStream('apple.ndjson')
 
 const express = require('express');
 const app = express();
-var port = process.env.PORT || 8080;
-
+//var port = process.env.PORT || 8080;
+cont port =3000;
 
 app.listen(port, () => {
 	console.log('Example app listening on port 3000!')
