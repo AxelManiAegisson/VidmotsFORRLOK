@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<header>Hvað villtu sjá?</header>
+	<body onload="InitThis();">
+		<div>
+			<form action="sites/rainbow.html">
+			  <input type="submit" value="Regnboga">
+			</form>
+			<form action="sites/cat.html">
+			  <input type="submit" value="Kött">
+			</form> 
+			<form action="sites/dog.html">
+			  <input type="submit" value="Hund">
+			</form> 
+			<form action="sites/house.html">
+			  <input type="submit" value="Hús">
+			</form> 
+			<form action="sites/apple.html">
+			  <input type="submit" value="Epli">
+			</form>	
+			<h2>Teiknaðu eitthvað</h2>
+			<canvas id="myCanvas" width="250" height="250" style="border:2px solid black"></canvas><br>
+			<button onclick="javascript:clearArea();return false;">Clear</button>
+			<button type="button" id="btnDownload">Download</button>
+		</div>
+  
+		<script src="p5.min.js"></script>
+		<script src="sketch.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	</body>
+</html>

@@ -1,0 +1,16 @@
+input[type=submit] {
+    width: 10em;  
+    height: 2em;
+}
+header{
+	text-align: center;
+	font-size: 30px;
+	border: 1px;
+}
+div{
+	text-align: center;
+}
+canvas{
+	margin-top: 1em;
+}
+

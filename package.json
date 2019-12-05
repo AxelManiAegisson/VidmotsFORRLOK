@@ -1,0 +1,15 @@
+{
+  "name": "quickdraw",
+  "version": "0.0.1",
+  "description": "Er ad gera lokaverkefni i vidmotsforr sem byggir a quickdraw google leiknum",
+  "main": "app.js",
+  "scripts": {
+    "start" : "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ndjson": "^1.5.0"
+  }
+}
